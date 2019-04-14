@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(80, 84, 88);
+    height: 100%;
+    width: 100%;
+}
+.block {
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    text-align: center; 
+    border-radius: 10px;
+    margin: 20px;
+    background: linear-gradient(to right,
+     #45f13f 12.5%,
+     #e6e1a5 12.5%,  #e6e1a5 25%, 
+     #ecbc39 25%,  #ecbc39 37.5%,
+     #ee2e0c 37.5%, #ee2e0c 50%, 
+     #eb68a5 50%, #eb68a5 62.5%,
+     #a325dd 62.5%,  #a325dd 75%,
+     #5530b9 75%,  #5530b9 87.5%, 
+     #50c3e6 87.5%,  #50c3e6 100%);
+}
+.login-form {
+    width: 500px;
+    height: 490px;
+    background-color: white;
+}
+
+.logo {
+    display: block;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    color: rgb(151, 148, 148);
+    background-color: rgb(237, 237, 243);
+    width: 100%;
+    height: 70px;
+    padding-top: 25px;
+}
+.wrap-input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 15px;
+}
+.sing {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    width: 425px;
+    height: 70px;
+    background-color: rgb(230, 103, 80);
+    border-radius: 5px;
+    margin: 15px;
+}
+.wrap-input:hover {
+    border: 2px solid rgb(124, 195, 223);
+    border-bottom: 4px solid rgb(124, 195, 223);
+}
+.sing:hover {
+    border: 2px solid rgb(214, 165, 165);
+    border-bottom: 4px solid rgb(214, 165, 165);
+}
