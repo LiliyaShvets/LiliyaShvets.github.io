@@ -1,0 +1,216 @@
+.content_servises{
+    display: grid;
+    margin-top: 70px;
+    margin-bottom: 5%;
+}
+.services_photo {
+    display: grid;
+    object-fit: cover;
+    width: 100%
+}
+.block_type_photosession {
+    display: grid;
+    justify-self: center;
+}
+.type_photosession {
+    display: grid;
+    background-color: black;
+    height: auto;
+    margin-top: -70px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.text_type_photosession {
+    display: grid;
+    background-color: rgba(53, 38, 41, 0.2);
+    box-shadow: inset 0px 0px 30px 30px rgba(5, 5, 5); 
+    color: #aaa7a7;
+    padding: 3%;
+    font-family: 'Poiret One', cursive;
+    font-size: 19px;
+    height: auto;
+}
+h1 {
+    font-size: 28px;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+.block_prices_servises {
+    display: grid;
+    height: auto;
+}
+.prices_servises {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(53, 38, 41, 0.2);
+    box-shadow: inset 0px 0px 30px 30px rgba(5, 5, 5); 
+    margin-top: 5%;
+}
+.prices,
+.prices_photo {
+    padding: 10%;
+    display: grid;
+}
+.prices {
+    color: #aaa7a7;
+    margin-left: 10%;
+}
+.prices_photo {
+    margin-right: 10%;
+}
+h2 {
+    font-size: 27px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+h3 {
+    font-size: 23px;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+.list_s_m,
+.list_s_a {
+    list-style-type: none;
+}
+.list_s_m:before,
+.list_s_a:before {
+    content: "~ "; 
+}
+.list_servises_main,
+.list_servises_add,
+.confidentiality {
+    font-size: 17px;
+    font-family: 'Poiret One', cursive;
+}
+.prices_image,
+.prices_img {
+    height: 620px;
+    width: 500px; 
+}
+.prices_image {
+    box-shadow: inset 0px 0px 30px 30px rgb(0, 0, 0, 0.6); 
+    margin-top: 10%;
+}
+.prices_img {
+    position: relative;
+    z-index: -2;
+}
+@media (max-width: 1200px) {
+    .text_type_photosession {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .type_photosession {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .prices,
+    .prices_photo {
+        padding: 3%;
+    }
+    .prices_image,
+    .prices_img {
+        height: 500px;
+        width: 350px; 
+    }
+    h2 {
+        font-size: 19px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .list_servises_main,
+    .list_servises_add,
+    .confidentiality {
+        font-size: 15px;
+    }
+}
+@media (max-width: 800px) {
+    .text_type_photosession {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .prices_servises {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+    }
+    .type_photosession {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .prices,
+    .prices_photo {
+        padding: 3%;
+        margin: 5%;
+    }
+    .prices_photo {
+        display: grid;
+        justify-self: center;
+    }
+    .prices_image,
+    .prices_img {
+        height: 500px;
+        width: 350px; 
+    }
+    h2 {
+        font-size: 19px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .list_servises_main,
+    .list_servises_add,
+    .confidentiality {
+        font-size: 15px;
+    }
+}
+@media (max-width: 575px) {
+    .text_type_photosession {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .prices_servises {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+    }
+    .type_photosession {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .prices,
+    .prices_photo {
+        padding: 3%;
+        margin: 5%;
+    }
+    .prices_photo {
+        display: grid;
+        justify-self: center;
+    }
+    .prices_image,
+    .prices_img {
+        height: 500px;
+        width: 350px; 
+    }
+    h2 {
+        font-size: 19px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .list_servises_main,
+    .list_servises_add,
+    .confidentiality {
+        font-size: 15px;
+    }
+}

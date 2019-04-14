@@ -1,0 +1,218 @@
+body {
+    background-color: black;
+}
+.header {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(240, 233, 233, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    background: rgb(240, 233, 233, 0.7);
+    box-shadow: 0 -150px 70px -120px black inset,
+                0 -220px 70px -120px rgba(131, 128, 128, 0.7) inset,
+                0 -280px 70px -120px rgba(199, 195, 195, 0.7) inset;
+    animation: background 12s infinite alternate;
+}
+@keyframes background {
+    50% {
+      background:  rgb(160, 113, 113);
+      box-shadow: 0 -140px 70px -120px rgb(32, 24, 24) inset,
+                  0 -210px 70px -120px rgb(104, 61, 61) inset,
+                  0 -280px 70px -120px rgb(163, 98, 98) inset;
+    }
+  }
+.header_glide {
+    height: 70px;
+    width: 100%;
+    background-color:rgb(240, 233, 233, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    transition: all 0.7s ease-out;
+}
+.main_logo {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+   height: 90%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Poiret One', cursive;
+   color: black;
+   text-shadow: 3px 5px 6px white;
+}
+
+.logo_irina {
+    font-size: 100px;
+}
+.logo_ir {
+    font-size: 40px;
+}
+.down {
+    display: flex;
+    height: 10%;
+    color: black;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    padding-top: 10%;
+    display: grid; 
+    margin-bottom: 5%;
+    grid-template-columns: 1fr 1fr;
+}
+.block1 {
+    display: grid; 
+    align-self: center;
+    justify-self: center;
+    height: auto;
+}
+.photo {
+    padding: 60px;
+    padding-top: 200px;
+}
+.photo_irina {
+    height: 620px;
+    width: 460px;
+    box-shadow: 0 0 7px rgba(248, 247, 247, 0.5); 
+}
+.block2 {
+    display: grid; 
+    align-self: center;
+    justify-self: center;
+    height: auto;
+    font-size: 20px;
+    margin-top: 40%;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    background-color: rgba(53, 38, 41, 0.2);  
+}
+.about_me {
+    padding: 60px;
+    padding-top: 60px;
+    height: 500px;
+    color:#aaa7a7;
+    font-family: 'Poiret One', cursive;
+    box-shadow: inset 0px 0px 30px 30px rgba(5, 5, 5); 
+}
+.abm {
+    font-size: 15px;
+    font-family: 'Poiret One', cursive;
+}
+.ph_k {
+    font-size: 27px;
+}
+.ik {
+    font-size: 32px;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+}
+@media all and (max-width: 1200px) {
+    .logo_irina {
+        font-size: 80px;
+    }
+    .logo_ir {
+        font-size: 30px;
+    }
+    .down {
+        font-size: 25px;
+    }
+    .content {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+    }
+    .block1 {
+        margin: 10%;
+        margin-top: 5%;
+    }
+    .block2 {
+        margin: 10%;
+        margin-top: 30%;
+        margin-bottom: 5%;
+    }
+    .photo {
+        padding-top: 20px;
+    }
+}
+@media all and (max-width: 768px) {
+    .logo_irina {
+        font-size: 70px;
+    }
+    .logo_ir {
+        font-size: 25px;
+    }
+    .down {
+        font-size: 20px;
+    }
+    .content {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+    }
+    .block1 {
+        margin: 10%;
+        margin-top: 5%;
+    }
+    .block2 {
+        margin: 10%;
+        margin-top: 30%;
+        margin-bottom: 5%;
+    }
+    .photo {
+        padding-top: 20px;
+    }
+}
+@media all and (max-width: 575px){
+    .logo_irina {
+        font-size: 50px;
+    }
+    .logo_ir {
+        font-size: 20px;
+    }
+    .down {
+        font-size: 17px;
+    }
+    .content {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+    }
+    .block1 {
+        margin: 10%;
+        margin-top: 5%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .block2 {
+        margin: 5%;
+        margin-top: 40%;
+        margin-left: 0;
+        font-size: 18px;
+    }
+    .photo {
+        padding-top: 20px;
+    }
+    .photo_irina {
+        height: 470px;
+        width: 350px;
+    }
+    .abm {
+        font-size: 13px;
+    }
+    .ph_k {
+        font-size: 21px;
+    }
+    .ik {
+        font-size: 25px;
+    }
+}
+
+    

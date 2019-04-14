@@ -1,0 +1,234 @@
+.block_photosessions {
+    display: grid;
+    color: aliceblue;
+}
+.portfolio{
+    display: grid;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 5%;
+}
+.photosessions{
+    height: 100px;
+    display: grid;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 7%;
+    margin-right: 7%;
+    color:  #aaa7a7;
+}
+.port {
+    margin-left: 15%;
+} 
+.photosessions:after {
+    content: '';
+    height: 1px;
+    background: rgb(240, 233, 233, 0.3);
+} 
+.name_wedding,
+.name_newyear,
+.name_family,
+.name_lovestory,
+.name_helloween {
+    display: grid;
+    margin: 5%;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(53, 38, 41, 0.2);
+    color: #aaa7a7;
+    font-size: 25px;
+    z-index: 0.5;
+    font-family: 'Poiret One', cursive;
+    /*-webkit-box-shadow: inset 0px 0px 30px 30px rgba(5, 5, 5); 
+	-moz-box-shadow: inset 0px 0px 30px 30px rgba(5, 5, 5); */
+    box-shadow: inset 0px 0px 30px 30px rgba(5, 5, 5); 
+}
+.name_wedding {
+    margin-left: 10%;
+}
+.name_newyear {
+    margin-right: 10%;
+}
+.name_family{
+    margin-left: 10%;
+}
+.name_lovestory {
+    margin-right: 10%;
+}
+.name_helloween {
+    margin-left: 10%;
+}
+.name_photosession {
+    font-size: 25px;
+    text-decoration: none;
+    color: #aaa7a7;
+    text-align: center;
+    line-height: 60px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    transition: all 0.5s ease-out;
+}
+.name_photosession:hover {
+    transform: scale(1.2);
+}
+.block_img_1 {
+    overflow:hidden;
+    height: 500px;
+    width: 350px;
+    margin: -5%;
+    margin-left: 10%;
+    box-shadow: 0 0 7px rgba(248, 247, 247, 0.5); 
+   
+}
+.img_1 {
+    height: 500px;
+    width: 350px;
+    transition: all 1s ease-out;
+}
+.img_1:hover {
+    transform: scale(1.1);
+}
+.block_img_2 {
+    overflow:hidden;
+    height: 350px;
+    width: 500px;  
+    margin: -5%;
+    margin-left: 7%;
+    box-shadow: 0 0 7px rgba(248, 247, 247, 0.5); 
+}
+.img_2 {
+    height: 350px;
+    width: 500px;  
+    transition: all 1s ease-out;
+}
+.img_2:hover {
+    transform: scale(1.1);
+}
+.block_img_3 {
+    overflow:hidden;
+    height: 350px;
+    width: 500px;  
+    margin: -5%;
+    margin-left: 10%;
+    box-shadow: 0 0 7px rgba(248, 247, 247, 0.5); 
+}
+.img_3 {
+    height: 350px;
+    width: 500px;  
+    transition: all 1s ease-out;
+}
+.img_3:hover {
+    transform: scale(1.1);
+}
+.info {
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    margin: 10%;
+    font-size: 17px;
+}
+@media all and (max-width: 1200px) {
+    .block_img_1,
+    .block_img_2,
+    .block_img_3 {
+        margin: 10%;
+    }
+    .block_img_1,
+    .img_1 {
+        height: 400px;
+        width: 280px;
+    }
+    .block_img_2,
+    .img_2 {
+        height: 280px;
+        width: 400px;  
+    }
+    .block_img_3,
+    .img_3 {
+        height: 280px;
+        width: 400px;  
+    }
+}
+@media all and (max-width: 1050px) {
+    .photosessions {
+        font-size: 25px;
+    }
+    .name_wedding,
+    .name_newyear,
+    .name_family,
+    .name_lovestory, 
+    .name_helloween {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+        margin: 2%;
+        padding: 2%;
+    }
+    .block_img_1,
+    .block_img_2,
+    .block_img_3,
+    .info {
+        display: grid;
+        justify-self: center;
+    }
+    .block_img_1,
+    .img_1 {
+        height: 500px;
+        width: 350px;
+    }
+    .block_img_2,
+    .img_2 {
+        height: 350px;
+        width: 500px;  
+    }
+    .block_img_3,
+    .img_3 {
+        height: 350px;
+        width: 500px;  
+    }
+}
+@media all and (max-width: 575px){
+    .photosessions {
+        font-size: 23px;
+    }
+    .name_wedding,
+    .name_newyear,
+    .name_family,
+    .name_lovestory, 
+    .name_helloween {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+        margin: 3%;
+        padding: 3%;
+    }
+    .name_photosession {
+        font-size: 19px;
+    }
+    .block_img_1,
+    .block_img_2,
+    .block_img_3,
+    .info {
+        display: grid;
+        justify-self: center;
+        margin: 3%;
+        font-size: 15px;
+        
+    }
+    .block_img_1,
+    .img_1 {
+        height: 400px;
+        width: 280px;
+    }
+    .block_img_2,
+    .img_2 {
+        height: 280px;
+        width: 400px;  
+    }
+    .block_img_3,
+    .img_3 {
+        height: 280px;
+        width: 400px;  
+    }
+}

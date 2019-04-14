@@ -1,0 +1,132 @@
+.content_contacts {
+    display: grid;
+    margin-top: 70px;
+    margin-bottom: 5%;
+}
+.name_contacts {
+    color: #aaa7a7;
+    height: 150px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 27px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.contacts {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: auto;
+    background-color: rgba(53, 38, 41, 0.2);
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #aaa7a7;   
+    font-size: 17px;
+    font-family: 'Poiret One', cursive;
+    line-height: 2;
+}
+.data,
+.request {
+    padding: 10%;
+    box-shadow: inset 0px 0px 30px 30px rgba(5, 5, 5); 
+}
+.data {
+    border-right: 1px solid rgb(63, 58, 60, 0.5);
+}
+.data_name,
+.request_name {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 25px;
+}
+.icons {
+    font-size: 30px;
+}
+.contacts_link {
+    text-decoration: none;
+    color:  #aaa7a7;
+}
+.your_name,
+.your_ph,
+.your_email,
+.message {
+    background: rgb(63, 58, 60);
+    color:  #aaa7a7; 
+    font-size: 17px;
+    font-family: 'Poiret One', cursive;
+    border-radius: 5px;
+    border: 3px;
+    width: 100%;
+}
+.your_name,
+.your_ph,
+.your_email {
+    height: 30px;
+}
+.message {
+    height: 150px;
+}
+.submit_message {
+    text-align: center;
+}
+.submit_m {
+    font-size: 20px;
+    height: 30px;
+    border:0 none;
+    font-family: 'Poiret One', cursive;
+    background-color: rgb(63, 58, 60);
+    color:  #aaa7a7; 
+    border-radius: 5px;
+}
+@media all and (max-width: 767px) {
+    .name_contacts {
+        font-size: 25px;
+    }
+    .contacts {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+        margin-left: 3%;
+        margin-right: 3%; 
+    }
+    .data,
+    .request {
+        display: grid; 
+        font-size: 17px;
+        line-height: 1;
+    }  
+    .data_name,
+    .request_name {
+        font-size: 23px;
+    }
+    .submit_m {
+        font-size: 17px;
+    }    
+}
+@media all and (max-width: 575px){
+    .name_contacts {
+        font-size: 23px;
+    }
+    .contacts {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+        margin-left: 3%;
+        margin-right: 3%; 
+    }
+    .data,
+    .request {
+        display: grid; 
+        font-size: 15px;
+        line-height: 1;
+    }
+    .data_name,
+    .request_name {
+        font-size: 20px;
+    }
+    .submit_m {
+        font-size: 15px;
+    }  
+}
