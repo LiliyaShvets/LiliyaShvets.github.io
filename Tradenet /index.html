@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+    <main class="main">
+        <div class="intro">
+            <div class="wrapper">
+                <div class="intro_wrapper">
+                    <div class="profits_for_you">
+                        <h1 class="profits_title">
+                            We teach you.<br>
+                            We fund you.
+                        </h1>
+                        <div class="profits_subtitle">
+                            You keep most of the profits  
+                        </div>
+                        <div class="profits_info">
+                            We have educated more than<br>
+                            <span class="profits_quantity">16,000 traders worldwide</span><br>
+                            since 2004 & completely funded their trading
+                            accounts. You can be next
+                        </div>
+                        <div class="profits_add_info"></div>
+                    </div>
+                    <div class="registration_form">
+                        <div class="logo">
+                            <img src="./images/logo.png" alt="TradeNet" class="logo_img">
+                        </div>
+                        <p class="registration_form_title">
+                            You’re one step away from <br>
+                            joining our elite trading team
+                        </p>
+                        <p class="registration_form_subtitle">
+                            Just fill in the fields below with your personal data
+                        </p>
+                        <form name="f1" action="" onsubmit="return validate()">
+                            <div class="form_group_fn">
+                                <input type="text" class="form_item input_fist_name" name="fistNameRegform" placeholder="First Name">
+                                <span id="firstName" class="check_form_item check_fn"></span>
+                            </div>
+                            <div class="form_group_ln">
+                                <input type="text" class="form_item input_last_name" name="lastNameRegform" placeholder="Last Name">
+                                <span id="lastName" class="check_form_item check_ln"></span>
+                            </div>
+                            <div class="form_group_em">
+                                <input type="email" class="form_item input_email" name="emailRegform" placeholder="Email">
+                                <span id="email" class="check_form_item check_em"></span>
+                            </div>
+                            <div class="form_group_co">
+                                <select name="country" id="country_regform" class="form_item select_country_regform">
+                                    <option value="Romania">Romania</option>
+                                    <option value="Italy">Italy</option>
+                                    <option value="United Kingdom">United Kingdom</option>
+                                    <option value="Austria">Austria</option>
+                                    <option value="Argentina">Argentina</option>
+                                    <option value="Germany">Germany</option>
+                                    <option value="Netherlands">Netherlands</option>
+                                    <option value="Switzerland">Switzerland</option>
+                                    <option value="Finland">Finland</option>
+                                </select>
+                            </div>
+                            <div class="form_group_ph">
+                                <input type="tel" class="form_item input_phone_prefix_regform" name="phonePrefixRegform" placeholder="+40000" pattern="[+][0-9]{5}">
+                                <span id="phonePrefix" class="check_form_item check_phn"></span>
+                                <input type="tel" class="form_item input_phone_regform" name="phoneRegform" placeholder="Phone" pattern="^[ 0-9]+$">
+                                <span id="phoneNumber" class="check_form_item check_pn"></span>
+                            </div>
+                            <div class="form_group">
+                                <input type="submit" value="Try a 14-day trial period" class="form_submit"> 
+                            </div>
+                        </form>
+                        <p class="registration_form_subtitle_down">
+                            You will be contacted shortly by one of our
+                            trading mentors.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="what_we_offer">
+            <div class="wrapper">
+                <h3 class="what_we_offer_title">
+                    What we offer
+                </h3>
+                <div class="wrapper_offers">
+                    <div class="offer_block">
+                        <img src="./images/offer-icon-1.png" alt="Personalized trading education" class="img_icon">
+                        <p class="offer_subtitle">Personalized trading education</p>
+                        <p class="offer_description">
+                            <strong>Meir Barak</strong> and his team of highly skilled financial experts provide you with 1-on-1 personal mentorship in the art of day trading
+                        </p>
+                    </div>
+                    <div class="offer_block">
+                        <img src="./images/offer-icon-2.png" alt="A Pro Funded Account" class="img_icon">
+                        <p class="offer_subtitle">A Pro Funded Account</p>
+                        <p class="offer_description">
+                            Upon completion of a Self-Study course and a 14-day demo practice you will receive a funded trading account of up to $240,000.
+                        </p>
+                        <p class="offer_description">
+                            Any losses are absorbed by Tradenet and you keep 80% to 95% of the profits you earn from trading 
+                        </p>
+                    </div>
+                    <div class="offer_block">
+                        <img src="./images/offer-icon-3.png" alt="Stellar trading academy" class="img_icon">
+                        <p class="offer_subtitle">Stellar trading academy</p>
+                        <ul class="description_list">
+                            <li class="desc_list_item">
+                                Get access to extensive training materials, Demo Account, live practice sessions & much more, everything designed for your skill level
+                            </li>
+                            <li class="desc_list_item">
+                                All with as low as $500!
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="start_now">
+            <h3 class="start_now_title">
+                Allow us to fund you
+            </h3>
+            <button type="submit" class="start_now_submit">Start Now</button>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer_info">
+                <p class="footer_info_item"> 
+                    Tradenet is a Day Trading Training school that offers day and swing trading courses in stocks and futures. At Tradenet we specialize in day trading courses that are suitable for those familiar with day trading, or beginners with no prior knowledge or experience with day trading.
+                </p>
+                <p class="footer_info_item"> 
+                    We offer three different learning options; Self-Study online course, online courses in the comfort of your own home or an exclusive course, one-on-one with an experienced day trading mentor at your own pace. We also offer online live day Trading Room and the potential for funded sub-accounts for our students. Most of our services are offered in several languages, including: Spanish, German, French, Russian, Hungarian, Italian, Arabic and more.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/js.js"></script>
+</body>
+</html>
